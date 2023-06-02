@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgrey;
+            margin: 0px;
+           
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 12px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.418);
+        }
+
+        h1 {
+            box-shadow: 4px 4px 7px 2px rgba(0, 0, 0, 0.396);
+            border-radius: 3px 7px 7px 3px;
+        }
+
+        nav {
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 3px 3px 4px 1px rgba(0, 0, 0, 0.453);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bolder;
+            margin-right: 60px;
+
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: rgb(93, 93, 93);
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 12px 0px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.434);
+        }
+
+        article {
+            background-color: rgba(234, 234, 234, 0.933);
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgba(157, 157, 157, 0.341);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        .noticias {
+            border-radius: 0px 12px;
+        }
+
+        .artigo {
+            border-radius: 12px 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esportes, Política e Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article class="noticias">
+               <h2>Notícias sobre leozada</h2>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, esse voluptas odio rem vero eius error dignissimos doloribus suscipit quis voluptatibus, nemo sit. Excepturi consequuntur voluptatum qui suscipit nesciunt! Fugiat?</p>
+            </article> 
+            <br>
+            <article class="artigo">
+                <aside>
+                    <p>Artigo escrito por leo lindo</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por leozinho do grau</p>
+    </footer>
+</body>
+</html>
